@@ -1,0 +1,35 @@
+.calculator {
+    margin: auto;
+    width: 268px;
+    border: 2px grey solid;
+}
+
+#display {
+    border: 2px grey solid;
+    height: 50px;
+    /* width: 100%; */
+    margin: 20px;
+}
+
+#display-text {
+    text-align: end;
+    font-size: 35px;
+    padding: 7.5px;
+}
+
+.calculator-btn {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+/* .table-row {
+    margin: 20px;
+    justify-content: space-evenly;
+} */
+
+.table-row1 {
+    margin-left: 20px;
+    padding-top: 0;
+    justify-content: space-between;
+}

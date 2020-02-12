@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- The display -->
+      <table class="calculator-table">
+        <tr class="table-row">
+          <div id="display">
+            <div id="display-text">
+            </div>
+          </div>
+        </tr>
+        <tr class="table-row">
+          <div class="table-row1">
+            <button class="calculator-btn" value="c" onclick="clearFunc()">
+              C
+            </button>
+
+            <button class="calculator-btn" value="del"  onclick="delFunc()">del</button>
+
+            <button class="calculator-btn" value="/" onclick="insert(this)">/</button>
+
+            <button class="calculator-btn" value="*" onclick="insert(this)">x</button>
+          </div>
+        </tr>
+        <tr class="table-row">
+          <div class="table-row1">
+            <button class="calculator-btn" value="7" onclick="insert(this)">7</button>
+
+            <button class="calculator-btn" value="8" onclick="insert(this)">8</button>
+
+            <button class="calculator-btn" value="9" onclick="insert(this)">9</button>
+
+            <button class="calculator-btn" value="-" onclick="insert(this)">-</button>
+          </div>
+        </tr>
+        <tr class="table-row">
+          <div class="table-row1">
+            <button class="calculator-btn" value="4" onclick="insert(this)">4</button>
+
+            <button class="calculator-btn" value="5" onclick="insert(this)">5</button>
+
+            <button class="calculator-btn" value="6" onclick="insert(this)">6</button>
+
+            <button class="calculator-btn" value="+" onclick="insert(this)">+</button>
+          </div>
+        </tr>
+        <tr class="table-row">
+          <div class="table-row1">
+            <button class="calculator-btn" value="1" onclick="insert(this)">1</button>
+
+            <button class="calculator-btn" value="2" onclick="insert(this)">2</button>
+
+            <button class="calculator-btn" value="3" onclick="insert(this)">3</button>
+
+            <button class="calculator-btn" value="=" onclick="equal()">=</button>
+          </div>
+        </tr>
+        <tr class="table-row">
+            <div class="table-row1">
+              
+  
+              <button class="calculator-btn" value="0"  onclick="insert(this)">0</button>
+              <button class="calculator-btn" value="00" onclick="insert(this)">00</button>
+              <button class="calculator-btn" value="." onclick="insert(this)">
+                .
+              </button>
+  
+              <button class="calculator-btn" value="Ans" onclick="viewHistory()">Ans</button>
+  
+              
+            </div>
+          </tr>
+      </table>
+    </div>
+    <script src="./home.js"></script>
+  </body>
+</html>
